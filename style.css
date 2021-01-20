@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#world {
+    width: 650px;
+    margin: 100px auto;
+    padding: 100px;
+}
+
+.asia {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    height: 300px;
+    background-color: rgb(0, 153, 255);
+}
+
+.turkey {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.southkorea {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+#australia {
+    width: 650px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.africa-alt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 650px;
+    height: 40px;
+    background-color: rgba(255, 253, 253, 0.849);
+
+}
+
+.america {
+    display: flex;
+    justify-content: start;
+    margin: 30px;
+    width: 590px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    bottom: 750px;
+
+}
+
+.america .li_wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.america .li_wrap .icon {
+}
+
+.profil {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 550px;
+    border: 1px solid white;
+    background-color: rgb(109, 216, 243);
+    right: 100px;
+    background: url(./img/as.jpg);
+
+}
+
+.profil1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(238, 255, 0);
+    border-radius: 20px;
+    left: 160px;
+    position: relative;
+    top: 150px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    top: 28px;
+}
+
+a:hover {
+    opacity: 0.7;
+    color: rgb(230, 16, 16);
+}
+
+.europe {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 800px;
+    margin: 30px;
+    background-color: white;
+
+}
+
+.europe1 {
+    margin: 40px;
+    padding: 30px;
+}
+
+.germany {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first {
+    font-family: 'Lobster Two', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.second {
+    font-family: 'Potta One', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+
+.third {
+    font-family: 'Mrs Saint Delafield', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: grey;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+#circle {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 500px;
+    border: 1px solid white;
+    background-color: rgb(109, 216, 243);
+    right: 1000px;
+}
+
+#circle1 {
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    position: absolute;
+    bottom: 520px;
+    border: 1px solid white;
+    background-color: rgb(109, 216, 243);
+    right: 0px;
+}
+
+#circle2 {
+    margin: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    position: absolute;
+    bottom: -150px;
+    border: 1px solid white;
+    background-color: rgb(109, 216, 243);
+    right: 1100px;
+}
+
+#circle3 {
+    margin: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    position: absolute;
+    bottom: -600px;
+    border: 1px solid white;
+    background-color: rgb(109, 216, 243);
+    right: -90px;
+}
+
+#circle4 {
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    position: absolute;
+    bottom: -1000px;
+    border: 1px solid white;
+    background-color: rgb(109, 216, 243);
+    right: 590px;
+}
